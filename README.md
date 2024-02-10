@@ -1,4 +1,4 @@
-# # A python application to generate popular googled keywords in related to a keyword
+# A python application to generate popular googled keywords in related to a keyword
 ![.ENV Badge](https://img.shields.io/badge/.ENV-ECD53F?logo=dotenv&logoColor=000&style=for-the-badge)
 ![Jupyter Badge](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=fff&style=for-the-badge)
 ![Google Search Console Badge](https://img.shields.io/badge/Google%20Search%20Console-458CF5?logo=googlesearchconsole&logoColor=fff&style=for-the-badge)
