@@ -1,15 +1,14 @@
 # # A python application to generate popular googled keywords in related to a keyword
-
-## Introduction
-This documentation provides a comprehensive overview of a Jupyter Notebook script designed to analyze and visualize search interest data using the Google Trends API. The script encompasses various technical components aimed at retrieving, processing, and visualizing search interest data for a given keyword.
-
-## Prerequisites
-Before running the script, ensure the following prerequisites are met:
 ![.ENV Badge](https://img.shields.io/badge/.ENV-ECD53F?logo=dotenv&logoColor=000&style=for-the-badge)
 ![Jupyter Badge](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=fff&style=for-the-badge)
 ![Google Search Console Badge](https://img.shields.io/badge/Google%20Search%20Console-458CF5?logo=googlesearchconsole&logoColor=fff&style=for-the-badge)
 ![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge)
 ![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=fff&style=for-the-badge)
+## Introduction
+This documentation provides a comprehensive overview of a Jupyter Notebook script designed to analyze and visualize search interest data using the Google Trends API. The script encompasses various technical components aimed at retrieving, processing, and visualizing search interest data for a given keyword.
+
+## Prerequisites
+Before running the script, ensure the following prerequisites are met:
 
 - **Python Environment**: The script requires a Python environment to execute. Ensure Python is installed on your system. You can download Python from the [official Python website](https://www.python.org/downloads/).
 
@@ -38,23 +37,28 @@ pip install -r requirements.txt
     - Utilizing the Google Trends API, the script retrieves related queries for the main keyword.
     - Data processing involves parsing and organizing related queries, displaying them in a scrollable table within the notebook.
     - The related queries data is exported to a CSV file for further analysis if needed.
+![plot](./img/query_data.png)
 - **State-wise Search Interest Analysis**:
     - The script retrieves state-wise search interest data for the specified keyword, focusing on the United States.
     - Visualization is achieved through a bar chart illustrating search interest by state.
     - Export functionality is included, allowing users to save state-wise search interest data to a CSV file.
+![plot](./img/satewise_keyword_rating.png)
 - **Top Related Queries Visualization**:
     - A pie chart is generated to visualize the distribution of search interest among the top 10 related queries.
+![plot](./img/Top_10_Related_Queries_Distribution.png)
 - **Related Queries Word Cloud**:
     - The script constructs a word cloud visualization representing the related queries, providing a graphical overview of popular search terms.
+![plot](./img/Related_Queries_Word_Cloud.png)
 - **Search Interest Distribution Visualization**:
     - Utilizing a violin plot, the script showcases the distribution of search interest among related queries.
+![plot](./img/Violin_Plot_of_Search_Interest.png)
 - **Search Interest Scatter Plot**:
     - A scatter plot is generated to visualize search interest for each related query, offering insights into query-specific trends.
-
+![plot](./img/Scatter_Plot_of_Search_Interest.png)
 ### Running the Script
 To execute the script:
 - Ensure all prerequisites and dependencies are met in your Python environment.
-- Open the Jupyter Notebook (`readme.ipynb`) using Jupyter Notebook or JupyterLab.
+- Open the Jupyter Notebook (`JIUS.ipynb`) using Jupyter Notebook or JupyterLab.
 - Run each cell sequentially to execute the code segments and observe the generated visualizations and outputs.
 
 ### Additional Technical Details
