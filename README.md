@@ -44,9 +44,14 @@ pip install -r requirements.txt
     - Visualization is achieved through a bar chart illustrating search interest by state.
     - Export functionality is included, allowing users to save state-wise search interest data to a CSV file.
 ![plot](./img/satewise_keyword_rating.png)
+- **Search Interest TimeLine Analysis**:
+    - The script retrieves search TimeLine interest data for the specified keyword, focusing on the United States.
+    - Visualization is achieved through a bar chart illustrating search interest TimeLine.
+    - Export functionality is included, allowing users to save search interest data to a CSV file.
+![plot](./img/search_interest_over_time.png)
 - **Top Related Queries Visualization**:
-    - A pie chart is generated to visualize the distribution of search interest among the top 10 related queries.
-![plot](./img/Top_10_Related_Queries_Distribution.png)
+    - A pie chart is generated to visualize the distribution of search interest among the top 15 related queries.
+![plot](./img/Top_15_Related_Queries_Distribution.png)
 - **Related Queries Word Cloud**:
     - The script constructs a word cloud visualization representing the related queries, providing a graphical overview of popular search terms.
 ![plot](./img/Related_Queries_Word_Cloud.png)
