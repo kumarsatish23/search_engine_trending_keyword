@@ -22,7 +22,7 @@ defusedxml==0.7.1
 exceptiongroup==1.2.0
 executing==2.0.1
 fastjsonschema==2.19.1
-fonttools==4.48.1
+fonttools==4.61.0
 fqdn==1.5.1
 idna==3.7
 importlib-metadata==7.0.1
